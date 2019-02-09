@@ -1,4 +1,4 @@
-FROM php:apache
+FROM php:latest
 
 RUN apt-get -y update
 ENV LIBVIRT_PHP_VERSION 0.5.4
